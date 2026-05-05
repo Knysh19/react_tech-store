@@ -8,6 +8,8 @@ import heartIcon from '../../../../public/icons/Favourites-(Heart-Like).svg';
 import bagIcon from '../../../../public/icons/Shopping-bag-(Cart).svg';
 import { useCart } from '../../../context/CartContext';
 
+//fix the cart icons
+
 export function HeaderMobile() {
   const [isOpen, setIsOpen] = useState(false);
   const { cartItems, favourites } = useCart();

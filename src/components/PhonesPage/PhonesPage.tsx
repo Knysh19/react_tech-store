@@ -37,6 +37,8 @@ export function PhonesPage() {
     );
   }
 
+  //look at this later!!
+
   const totalItems = phones.length;
   const perPageNumber = perPage === 'all' ? totalItems : Number(perPage);
   const totalPages = Math.ceil(totalItems / perPageNumber);
